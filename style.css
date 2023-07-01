@@ -1,0 +1,975 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 178px;
+    border-bottom: 2px solid #e7f5fb;
+    background-color: white;
+}
+.logo img{
+    width: 170px;
+    height: 28px;
+    margin: 5px 35px;
+}
+.blue{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+}
+.white{
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.nothing{
+    width: 98%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid skyblue;
+    border-radius: 2px;
+    position: absolute;
+    top: 18%;
+    left: 1%;
+}
+.paragraph{
+    position: absolute;
+    top: 23%;
+    left: 20%;
+}
+.paragraph p{
+    font-size: 14px;
+}
+.vue{
+    background-color: darkblue;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.kan{
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+/* season one */
+.games{
+    width: 300px;
+    height: 600px;
+    background-color: beige;
+    margin: 20px 170px;
+}
+.games .season1{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season1 img{
+    margin: 0 0 0 60px;
+}
+.season1 p{
+    margin: 0 0 0 20px;
+}
+.box1{
+    font-size: 12px;
+}
+.box1 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 35px;
+    padding: 10px 60px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 70px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 7px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line8{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line9{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 80px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.box1 .line10{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid beige;
+    border-radius: 8px;
+}
+.games2{
+    width: 300px;
+    height: 600px;
+    background-color:#C5E3EC;
+    position: absolute;
+    top: 30.2%;
+    left: 37%;
+}
+.games2 .season2{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #528AAE;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season2 img{
+    margin: 0 0 0 65px;
+}
+.season2 p{
+    margin: 0 0 0 20px;
+}
+.box2{
+    font-size: 12px;
+}
+.box2 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 35px;
+    padding: 10px 60px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 30px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 42px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 40px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line8{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 40px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line9{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 80px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box2 .line10{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.games3{
+    width: 300px;
+    height: 600px;
+    background-color:#D6F6D5;
+    position: absolute;
+    top: 30.2%;
+    left: 61%;
+}
+.games3 .season3{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #90EE91;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season3 img{
+    margin: 0 0 0 65px;
+}
+.season3 p{
+    margin: 0 0 0 20px;
+}
+.box3{
+    font-size: 12px;
+}
+.box3 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid #D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 35px;
+    padding: 10px 45px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 35px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 70px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 35px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line8{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line9{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 45px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box3 .line10{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 75px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.games4{
+    width: 250px;
+    height: 600px;
+    background-color:#C5E3EC;
+    position: absolute;
+    top: 124%;
+    left: 16.5%;
+}
+.games4 .season4{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #528AAE;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season4 img{
+    margin: 0 0 0 45px;
+}
+.box4{
+    font-size: 12px;
+}
+.box4 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 65px;
+    border: 2px solid #D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 15px;
+    padding: 10px 50px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 60px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 70px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 60px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 40px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 70px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line8{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 35px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line9{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 45px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.box4 .line10{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 75px;
+    border: 2px solid D6F6D5;
+    border-radius: 8px;
+}
+.games5{
+    width: 250px;
+    height: 600px;
+    background-color:#BFF4BE;
+    position: absolute;
+    top: 124%;
+    left: 37%;
+}
+.games5 .season5{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #90EE91;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season5 img{
+    margin: 0 0 0 45px;
+}
+.box5{
+    font-size: 12px;
+}
+.box5 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 45px;
+    border: 2px solid#BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 15px;
+    padding: 10px 30px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 60px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 50px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 70px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 30px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 70px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line8{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 70px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line9{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 45px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.box5 .line10{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 50px;
+    border: 2px solid #BFF4BE;
+    border-radius: 8px;
+}
+.games6{
+    width: 250px;
+    height: 600px;
+    background-color:#fffec8;
+    position: absolute;
+    top: 124%;
+    left: 57.5%;
+}
+.games6 .season6{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #fdfa72;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season6 img{
+    margin: 0 0 0 45px;
+    background-color: #fdfa72;
+}
+.box6{
+    font-size: 12px;
+}
+.box6 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 60px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 15px;
+    padding: 10px 80px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 65px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 50px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 75px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 50px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 60px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line8{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 80px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line9{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 45px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.box6 .line10{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 50px;
+    border: 2px solid #fffec8;
+    border-radius: 8px;
+}
+.games7{
+    width: 250px;
+    height: 430px;
+    background-color:#FFDCD1;
+    position: absolute;
+    top: 218%;
+    left: 30%;
+}
+.games7 .season7{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #ee2400;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season7 img{
+    margin: 0 0 0 45px;
+}
+.box7{
+    font-size: 12px;
+}
+.box7 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 65px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.box7 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 15px;
+    padding: 10px 70px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.box7 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 52px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.box7 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 55px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.box7 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 65px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.box7 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 60px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.box7 .line7{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 15px;
+    padding: 10px 40px;
+    border: 2px solid #FFDCD1;
+    border-radius: 8px;
+}
+.games8{
+    width: 300px;
+    height: 380px;
+    background-color:#C5E3EC;
+    position: absolute;
+    top: 218%;
+    left: 50%;
+}
+.games8 .season8{
+    display: flex;
+    font-size: 12px;
+    font-display: bold;
+    background-color: #528AAE;
+    color: white;
+    height: 30px;
+    padding: 10px 10px;
+    position: relative;
+}
+.season8 img{
+    margin: 0 0 0 65px;
+}
+.season8 p{
+    margin: 0 0 0 20px;
+}
+.box8{
+    font-size: 12px;
+}
+.box8 .line1{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 70px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box8 .line2{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 35px;
+    padding: 10px 25px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box8 .line3{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box8 .line4{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 50px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box8 .line5{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 70px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.box8 .line6{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 35px;
+    padding: 10px 60px;
+    border: 2px solid #C5E3EC;
+    border-radius: 8px;
+}
+.end{
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    position:absolute;
+    top: 288%;
+    right: 0;
+    border-top: 2px solid #e7f5fb;
+    padding: 7px 460px;
+}
+.firstp{
+    background-color: darkblue;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: white;
+}
+.one{
+    background-color: #e7f5fb;
+    padding: 2px 7px;
+    border-radius: 3px;
+    position: absolute;
+    top:19%;
+    right: 675px;
+}
+.second{
+    position: absolute;
+    top:25%;
+    right: 490px;
+}
+.secondp{
+    background-color: darkblue;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: white;
+
+}
+.two{
+    background-color: #e7f5fb;
+    padding: 2px 3px;
+    border-radius: 3px;
+    position: absolute;
+    top:2%;
+    left: 160px;
+}
+
